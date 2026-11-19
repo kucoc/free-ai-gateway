@@ -1,0 +1,10 @@
+name = "free-ai-gateway"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+[vars]
+# 部署前填入你的 Cloudflare Account ID
+CF_ACCOUNT_ID = "your-account-id-here"
+
+# CF_API_TOKEN 作为 secret：
+# npx wrangler secret put CF_API_TOKEN
